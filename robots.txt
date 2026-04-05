@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+# Запрещаем индексацию служебных папок
+Disallow: /config/
+Disallow: /classes/
+Disallow: /api/
+Disallow: /includes/
+Disallow: /uploads/
+# Запрещаем индексацию страниц авторизации
+Disallow: /login.php
+Disallow: /register.php
+Disallow: /logout.php
+# Запрещаем индексацию личных кабинетов
+Disallow: /worker/
+Disallow: /organizer/
+Disallow: /chat.php
+# Sitemap
+Sitemap: https://kairomaestro.ru/sitemap.xml
